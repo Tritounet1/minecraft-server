@@ -1,4 +1,37 @@
+# Ignorer les mondes (grossissent très vite)
 data/world*
-data/logs
-data/cache
+data/world_nether*
+data/world_the_end*
+
+# Ignorer les libs et versions téléchargées
+data/libraries/
+data/versions/
+data/cache/
+data/.cache/
+
+# Ignorer les logs
+data/logs/
+
+# Ignorer les fichiers temporaires de plugins
+data/plugins/*/tmp-client/
+data/plugins/*/.paper-remapped/
+data/plugins/*/.*
+data/plugins/*/*.tmp
+
+# Ignorer les fichiers runtime
+data/eula.txt
+data/usercache.json
+data/ops.json
+data/whitelist.json
+data/banned-ips.json
+data/banned-players.json
+
+# Ignorer les fichiers Paper auto-générés lourds
+data/paper-*.jar
 data/version_history.json
+
+# Ignorer les fichiers d'environnement internes
+data/.paper.env
+data/.papermc-manifest.json
+data/.rcon-cli.env
+data/.rcon-cli.yaml
